@@ -1,0 +1,42 @@
+:root{
+   --mainBlue : #2a2a72;
+   --lightBlue : #009ffd;
+   --mainWhite : #f3f3f3;
+   --mainDark : #232528;
+   --mainYellow : #ffa400
+}
+
+body{
+   font-family : "Oswald",sans-serif !important ;
+   background: var(--mainWhite) !important;
+   color: var(--mainDark) !important;
+}
+
+.text-title{
+   font-family: "Permanent Marker",cursive;
+   letter-spacing: 0.3rem;
+   text-transform: uppercase;
+}
+
+.text-blue{
+   color: var(--mainBlue);
+}
+
+.justify{
+  text-align: justify;
+}
+
+.btn-black{
+   border: 2px solid var(--mainDark) !important;
+   background: transparent;
+   text-transform: capitalize;
+   font-size: 0.7rem !important;
+   color: var(--mainDark);
+   transition: all 1s linear;
+}
+
+.btn-black:hover{
+   color: var(--mainWhite);
+   background: var(--mainDark);
+   cursor: pointer;
+}
